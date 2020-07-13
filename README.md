@@ -8,6 +8,7 @@
 
 ### What's New ( update)
 ```bash
+Added -h flag to set the host part of the urls and copy url host part to the host-header.
 Added -s flag to print specific status code. 
 Changed colour of HTTP response 404 as red and other interesting responses like 401 and 403 to Cyan colour
 ```
@@ -22,6 +23,7 @@ With Go:
 ```bash
 ▶ cat urls.txt | urlprobe 
 ▶ cat urls.txt | urlprobe -c 1000 -t 10
+▶ cat urls.txt | urlprobe -h 127.0.0.1
 ```
 ### Print Only Certain Status Codes
 
